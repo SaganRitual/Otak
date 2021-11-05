@@ -11,6 +11,12 @@
 		D41299FB2734E1DC00DBA6B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41299FA2734E1DC00DBA6B9 /* ContentView.swift */; };
 		D41299FD2734E1DD00DBA6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41299FC2734E1DD00DBA6B9 /* Assets.xcassets */; };
 		D4129A002734E1DD00DBA6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41299FF2734E1DD00DBA6B9 /* Preview Assets.xcassets */; };
+		D46C3D6B2734E31E0004AE0B /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D6A2734E31E0004AE0B /* ArenaScene.swift */; };
+		D46C3D6E27352F580004AE0B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D6D27352F580004AE0B /* NavigationView.swift */; };
+		D46C3D72273532EF0004AE0B /* SpriteLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D71273532EF0004AE0B /* SpriteLayerModel.swift */; };
+		D46C3D742735337A0004AE0B /* SpriteLayerScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D732735337A0004AE0B /* SpriteLayerScrollview.swift */; };
+		D46C3D76273534CA0004AE0B /* AddLayerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D75273534CA0004AE0B /* AddLayerButtonView.swift */; };
+		D46C3D7827353B0B0004AE0B /* SpriteLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D7727353B0B0004AE0B /* SpriteLayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		D41299FC2734E1DD00DBA6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41299FF2734E1DD00DBA6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4129A012734E1DD00DBA6B9 /* Otak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Otak.entitlements; sourceTree = "<group>"; };
+		D46C3D6A2734E31E0004AE0B /* ArenaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaScene.swift; sourceTree = "<group>"; };
+		D46C3D6D27352F580004AE0B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		D46C3D71273532EF0004AE0B /* SpriteLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerModel.swift; sourceTree = "<group>"; };
+		D46C3D732735337A0004AE0B /* SpriteLayerScrollview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerScrollview.swift; sourceTree = "<group>"; };
+		D46C3D75273534CA0004AE0B /* AddLayerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLayerButtonView.swift; sourceTree = "<group>"; };
+		D46C3D7727353B0B0004AE0B /* SpriteLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 		D41299EC2734E1DC00DBA6B9 = {
 			isa = PBXGroup;
 			children = (
+				D46C3D682734E2F70004AE0B /* Source */,
 				D41299F72734E1DC00DBA6B9 /* Otak */,
 				D41299F62734E1DC00DBA6B9 /* Products */,
 			);
@@ -67,6 +80,35 @@
 				D41299FF2734E1DD00DBA6B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D46C3D682734E2F70004AE0B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D46C3D6C27352F380004AE0B /* Views */,
+				D46C3D692734E2FF0004AE0B /* SpriteKit */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D46C3D692734E2FF0004AE0B /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				D46C3D6A2734E31E0004AE0B /* ArenaScene.swift */,
+				D46C3D71273532EF0004AE0B /* SpriteLayerModel.swift */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		D46C3D6C27352F380004AE0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D46C3D75273534CA0004AE0B /* AddLayerButtonView.swift */,
+				D46C3D6D27352F580004AE0B /* NavigationView.swift */,
+				D46C3D732735337A0004AE0B /* SpriteLayerScrollview.swift */,
+				D46C3D7727353B0B0004AE0B /* SpriteLayerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46C3D742735337A0004AE0B /* SpriteLayerScrollview.swift in Sources */,
 				D41299FB2734E1DC00DBA6B9 /* ContentView.swift in Sources */,
 				D41299F92734E1DC00DBA6B9 /* OtakApp.swift in Sources */,
+				D46C3D76273534CA0004AE0B /* AddLayerButtonView.swift in Sources */,
+				D46C3D6E27352F580004AE0B /* NavigationView.swift in Sources */,
+				D46C3D6B2734E31E0004AE0B /* ArenaScene.swift in Sources */,
+				D46C3D72273532EF0004AE0B /* SpriteLayerModel.swift in Sources */,
+				D46C3D7827353B0B0004AE0B /* SpriteLayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
