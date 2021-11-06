@@ -5,10 +5,10 @@ import SwiftUI
 struct SpriteLayerView: View {
     @StateObject var layer = SpriteLayer()
 
-    var showingRingSprite: Bool { layer.showingRingSprite }
-
     var body: some View {
-        Image(systemName: "capsule.fill")
+        VisibilityView(layer: layer)
+            .frame(width: 300)
+            .frame(maxHeight: .infinity)
     }
 }
 

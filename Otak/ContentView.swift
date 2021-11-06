@@ -25,7 +25,7 @@ struct ContentView: View {
                 .padding(5)
                 .frame(
                     minWidth: 400, idealWidth: nil,
-                    maxWidth: ContentView.getScreenDimensions().width,
+                    maxWidth: ContentView.getScreenDimensions().height,
                     minHeight: 400, idealHeight: nil,
                     maxHeight: ContentView.getScreenDimensions().height,
                     alignment: .leading
