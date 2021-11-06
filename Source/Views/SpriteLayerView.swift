@@ -3,15 +3,17 @@
 import SwiftUI
 
 struct SpriteLayerView: View {
-    @ObservedObject var model: SpriteLayerModel
+    @StateObject var layer = SpriteLayer()
+
+    var showingRingSprite: Bool { layer.showingRingSprite }
 
     var body: some View {
-        Text("Hello, World from SpriteLayerView body!")
+        Image(systemName: "capsule.fill")
     }
 }
 
 struct SpriteLayerView_Previews: PreviewProvider {
     static var previews: some View {
-        SpriteLayerView(model: SpriteLayerModel())
+        SpriteLayerView(layer: SpriteLayer())
     }
 }

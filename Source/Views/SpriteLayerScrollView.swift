@@ -2,14 +2,12 @@
 
 import SwiftUI
 
-struct SpriteLayerScrollview: View {
-    @StateObject var layers = SpriteLayerModelLibrary()
-
+struct SpriteLayerScrollView: View {
     var body: some View {
         HStack {
             ScrollView {
-                ForEach(0..<layers.count) { ix in
-                    SpriteLayerView(model: layers.getLayer(ix))
+                ForEach(0..<2) { ix in
+                    SpriteLayerView()
                 }
             }
         }
@@ -18,6 +16,6 @@ struct SpriteLayerScrollview: View {
 
 struct SpriteLayerScrollview_Previews: PreviewProvider {
     static var previews: some View {
-        SpriteLayerScrollview()
+        SpriteLayerScrollView()
     }
 }

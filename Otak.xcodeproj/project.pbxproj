@@ -13,10 +13,19 @@
 		D4129A002734E1DD00DBA6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41299FF2734E1DD00DBA6B9 /* Preview Assets.xcassets */; };
 		D46C3D6B2734E31E0004AE0B /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D6A2734E31E0004AE0B /* ArenaScene.swift */; };
 		D46C3D6E27352F580004AE0B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D6D27352F580004AE0B /* NavigationView.swift */; };
-		D46C3D72273532EF0004AE0B /* SpriteLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D71273532EF0004AE0B /* SpriteLayerModel.swift */; };
-		D46C3D742735337A0004AE0B /* SpriteLayerScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D732735337A0004AE0B /* SpriteLayerScrollview.swift */; };
+		D46C3D742735337A0004AE0B /* SpriteLayerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D732735337A0004AE0B /* SpriteLayerScrollView.swift */; };
 		D46C3D76273534CA0004AE0B /* AddLayerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D75273534CA0004AE0B /* AddLayerButtonView.swift */; };
 		D46C3D7827353B0B0004AE0B /* SpriteLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D7727353B0B0004AE0B /* SpriteLayerView.swift */; };
+		D46C3D7A2735CD750004AE0B /* DisplayCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D792735CD750004AE0B /* DisplayCycle.swift */; };
+		D46C3D7C2735CE000004AE0B /* SpritePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D7B2735CE000004AE0B /* SpritePool.swift */; };
+		D46C3D7E2735CE1B0004AE0B /* SceneDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D7D2735CE1B0004AE0B /* SceneDispatch.swift */; };
+		D46C3D812735CF030004AE0B /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D802735CF030004AE0B /* Deque.swift */; };
+		D46C3D852735CF0E0004AE0B /* Overload2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D822735CF0E0004AE0B /* Overload2D.swift */; };
+		D46C3D862735CF0E0004AE0B /* GridPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D832735CF0E0004AE0B /* GridPoint.swift */; };
+		D46C3D872735CF0E0004AE0B /* TriangleFormulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D842735CF0E0004AE0B /* TriangleFormulae.swift */; };
+		D46C3D892735CF350004AE0B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C3D882735CF350004AE0B /* Extensions.swift */; };
+		D4C309B62735D8D100F326D8 /* SpinnerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C309B52735D8D100F326D8 /* SpinnerSettings.swift */; };
+		D4C309BA2735F77A00F326D8 /* SpriteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C309B92735F77A00F326D8 /* SpriteLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +37,20 @@
 		D4129A012734E1DD00DBA6B9 /* Otak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Otak.entitlements; sourceTree = "<group>"; };
 		D46C3D6A2734E31E0004AE0B /* ArenaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaScene.swift; sourceTree = "<group>"; };
 		D46C3D6D27352F580004AE0B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
-		D46C3D71273532EF0004AE0B /* SpriteLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerModel.swift; sourceTree = "<group>"; };
-		D46C3D732735337A0004AE0B /* SpriteLayerScrollview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerScrollview.swift; sourceTree = "<group>"; };
+		D46C3D732735337A0004AE0B /* SpriteLayerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerScrollView.swift; sourceTree = "<group>"; };
 		D46C3D75273534CA0004AE0B /* AddLayerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLayerButtonView.swift; sourceTree = "<group>"; };
 		D46C3D7727353B0B0004AE0B /* SpriteLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayerView.swift; sourceTree = "<group>"; };
+		D46C3D792735CD750004AE0B /* DisplayCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCycle.swift; sourceTree = "<group>"; };
+		D46C3D7B2735CE000004AE0B /* SpritePool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpritePool.swift; sourceTree = "<group>"; };
+		D46C3D7D2735CE1B0004AE0B /* SceneDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDispatch.swift; sourceTree = "<group>"; };
+		D46C3D802735CF030004AE0B /* Deque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		D46C3D822735CF0E0004AE0B /* Overload2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload2D.swift; sourceTree = "<group>"; };
+		D46C3D832735CF0E0004AE0B /* GridPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPoint.swift; sourceTree = "<group>"; };
+		D46C3D842735CF0E0004AE0B /* TriangleFormulae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleFormulae.swift; sourceTree = "<group>"; };
+		D46C3D882735CF350004AE0B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D4C309B32735D8A500F326D8 /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		D4C309B52735D8D100F326D8 /* SpinnerSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerSettings.swift; sourceTree = "<group>"; };
+		D4C309B92735F77A00F326D8 /* SpriteLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +84,11 @@
 		D41299F72734E1DC00DBA6B9 /* Otak */ = {
 			isa = PBXGroup;
 			children = (
-				D41299F82734E1DC00DBA6B9 /* OtakApp.swift */,
 				D41299FA2734E1DC00DBA6B9 /* ContentView.swift */,
+				D41299F82734E1DC00DBA6B9 /* OtakApp.swift */,
+				D4C309B32735D8A500F326D8 /* Spinner.swift */,
+				D4C309B52735D8D100F326D8 /* SpinnerSettings.swift */,
+				D4C309B92735F77A00F326D8 /* SpriteLayer.swift */,
 				D41299FC2734E1DD00DBA6B9 /* Assets.xcassets */,
 				D4129A012734E1DD00DBA6B9 /* Otak.entitlements */,
 				D41299FE2734E1DD00DBA6B9 /* Preview Content */,
@@ -85,8 +107,9 @@
 		D46C3D682734E2F70004AE0B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D46C3D6C27352F380004AE0B /* Views */,
+				D46C3D7F2735CE950004AE0B /* NutsNBolts */,
 				D46C3D692734E2FF0004AE0B /* SpriteKit */,
+				D46C3D6C27352F380004AE0B /* Views */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -95,7 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				D46C3D6A2734E31E0004AE0B /* ArenaScene.swift */,
-				D46C3D71273532EF0004AE0B /* SpriteLayerModel.swift */,
+				D46C3D792735CD750004AE0B /* DisplayCycle.swift */,
+				D46C3D7D2735CE1B0004AE0B /* SceneDispatch.swift */,
+				D46C3D7B2735CE000004AE0B /* SpritePool.swift */,
 			);
 			path = SpriteKit;
 			sourceTree = "<group>";
@@ -105,10 +130,22 @@
 			children = (
 				D46C3D75273534CA0004AE0B /* AddLayerButtonView.swift */,
 				D46C3D6D27352F580004AE0B /* NavigationView.swift */,
-				D46C3D732735337A0004AE0B /* SpriteLayerScrollview.swift */,
+				D46C3D732735337A0004AE0B /* SpriteLayerScrollView.swift */,
 				D46C3D7727353B0B0004AE0B /* SpriteLayerView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D46C3D7F2735CE950004AE0B /* NutsNBolts */ = {
+			isa = PBXGroup;
+			children = (
+				D46C3D802735CF030004AE0B /* Deque.swift */,
+				D46C3D882735CF350004AE0B /* Extensions.swift */,
+				D46C3D832735CF0E0004AE0B /* GridPoint.swift */,
+				D46C3D822735CF0E0004AE0B /* Overload2D.swift */,
+				D46C3D842735CF0E0004AE0B /* TriangleFormulae.swift */,
+			);
+			path = NutsNBolts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,13 +218,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46C3D742735337A0004AE0B /* SpriteLayerScrollview.swift in Sources */,
+				D46C3D742735337A0004AE0B /* SpriteLayerScrollView.swift in Sources */,
 				D41299FB2734E1DC00DBA6B9 /* ContentView.swift in Sources */,
+				D46C3D812735CF030004AE0B /* Deque.swift in Sources */,
+				D46C3D7E2735CE1B0004AE0B /* SceneDispatch.swift in Sources */,
+				D46C3D7A2735CD750004AE0B /* DisplayCycle.swift in Sources */,
 				D41299F92734E1DC00DBA6B9 /* OtakApp.swift in Sources */,
+				D4C309B62735D8D100F326D8 /* SpinnerSettings.swift in Sources */,
+				D46C3D862735CF0E0004AE0B /* GridPoint.swift in Sources */,
 				D46C3D76273534CA0004AE0B /* AddLayerButtonView.swift in Sources */,
+				D46C3D872735CF0E0004AE0B /* TriangleFormulae.swift in Sources */,
+				D4C309BA2735F77A00F326D8 /* SpriteLayer.swift in Sources */,
 				D46C3D6E27352F580004AE0B /* NavigationView.swift in Sources */,
+				D46C3D7C2735CE000004AE0B /* SpritePool.swift in Sources */,
+				D46C3D892735CF350004AE0B /* Extensions.swift in Sources */,
 				D46C3D6B2734E31E0004AE0B /* ArenaScene.swift in Sources */,
-				D46C3D72273532EF0004AE0B /* SpriteLayerModel.swift in Sources */,
+				D46C3D852735CF0E0004AE0B /* Overload2D.swift in Sources */,
 				D46C3D7827353B0B0004AE0B /* SpriteLayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

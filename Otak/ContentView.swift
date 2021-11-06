@@ -21,17 +21,15 @@ struct ContentView: View {
         HStack {
             NavigationView()
 
-            SpriteView(scene: ArenaScene(
-                size: ContentView.getScreenDimensions()
-            ))
-            .padding(5)
-            .frame(
-                minWidth: 400, idealWidth: nil,
-                maxWidth: ContentView.getScreenDimensions().width,
-                minHeight: 400, idealHeight: nil,
-                maxHeight: ContentView.getScreenDimensions().height,
-                alignment: .leading
-            )
+            SpriteView(scene: ArenaScene())
+                .padding(5)
+                .frame(
+                    minWidth: 400, idealWidth: nil,
+                    maxWidth: ContentView.getScreenDimensions().width,
+                    minHeight: 400, idealHeight: nil,
+                    maxHeight: ContentView.getScreenDimensions().height,
+                    alignment: .leading
+                )
         }
     }
 }
